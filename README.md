@@ -1,29 +1,22 @@
 # vue-affix
 
-## Project setup
+## 安装
 ```
-npm install
+npm i bravo-affix
+
+//main.js
+import bravo from "bravo-affix"
+Vue.install(bravo-affix)
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Attributes
+| 参数      | 说明          | 类型      | 可选值                           | 默认值  |
+|---------- |-------------- |---------- |--------------------------------  |-------- |
+| bottom | 距离窗口底部达到指定偏移量后触发 | number | — | — |
+| top | 距离窗口顶部达到指定偏移量后触发 | number | — | — |
+| left | 距离窗口左边达到指定偏移量后触发 | number | — | — |
+| right | 距离窗口右边达到指定偏移量后触发 | number | — | — |
+| target | 设置 Affix 需要监听其滚动事件的元素，值为一个返回对应 DOM 元素的函数 | () => HTMLElement | — | () => document.body |
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+--from dongjiayun
