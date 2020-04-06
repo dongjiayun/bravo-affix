@@ -1,6 +1,6 @@
 # vue-affix
 
-## 安装
+## install
 ```
 npm i bravo-affix
 
@@ -18,5 +18,17 @@ Vue.install(bravo-affix)
 | right | react when offset to right of scroll container | number | — | 0 |
 | target | scroll container of affix,it's a function | () => HTMLElement | — | () => document.body |
 
+### tips
+```
+u can use vertical an horizonal attributes at a same time
+for example
+```
+```html
+<bravo-affix :target="() => this.$refs.container" :top="20" :left="20">
+    <button>
+      Fixed at the top of container
+    </button>
+</bravo-affix>
+```
 
 --from dongjiayun

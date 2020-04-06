@@ -1,9 +1,10 @@
 {
   "name": "bravo-affix",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "author": "dongjiayun",
   "private": false,
   "main": "lib/vueaffix.umd.min.js",
+  "license": "ISC",
   "keywords": ["vue","affix"],
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -14,6 +15,10 @@
   "dependencies": {
     "core-js": "^3.6.4",
     "vue": "^2.6.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dongjiayun/bravo-affix.git"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.2.0",
