@@ -1,11 +1,14 @@
 {
   "name": "bravo-affix",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "dongjiayun",
   "private": false,
   "main": "lib/vueaffix.umd.min.js",
   "license": "ISC",
-  "keywords": ["vue","affix"],
+  "keywords": [
+    "vue",
+    "affix"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
