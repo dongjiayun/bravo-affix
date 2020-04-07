@@ -5,8 +5,8 @@
 npm i bravo-affix
 
 //main.js
-import bravo from "bravo-affix"
-Vue.install(bravo-affix)
+import bravoAffix from "bravo-affix"
+Vue.install(bravoAffix)
 ```
 
 ### Attributes
