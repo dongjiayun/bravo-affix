@@ -105,7 +105,7 @@
             }
         },
         beforeDestroy() {
-            this.parent.removeEventListener('scroll')
+            this.parent.removeEventListener('scroll',this.listenerController)
         }
     };
 </script>
